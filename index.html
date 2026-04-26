@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Common Table | Research & Design Proposal</title>
+  <meta
+    name="description"
+    content="An integrated research and design proposal for a more accessible, ethical, and culturally aware food-support discovery platform."
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="brand-block">
+      <p class="eyebrow">Integrated Research and Design Proposal</p>
+      <div class="brand-row">
+        <h1>Common Table</h1>
+        <p class="tagline">Helping international students and low-income residents find community food support without confusion, stigma, or overload.</p>
+      </div>
+    </div>
+
+    <nav class="site-nav" aria-label="Section navigation">
+      <a href="#context">Context</a>
+      <a href="#research">Research</a>
+      <a href="#principles">Principles</a>
+      <a href="#direction">Direction</a>
+      <a href="#commitments">Commitments</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero reveal">
+      <div class="hero-copy">
+        <p class="kicker">Design context</p>
+        <h2>Food relief is available, but finding the right help often requires time, confidence, and local knowledge that many people do not have.</h2>
+        <p class="lede">
+          This proposal investigates how a digital service could make community food support more discoverable,
+          understandable, and dignified for people navigating cost-of-living pressure in an unfamiliar system.
+        </p>
+      </div>
+
+      <div class="hero-panel">
+        <p class="panel-label">Project framing</p>
+        <ul class="metric-list">
+          <li>
+            <span class="metric-title">Primary community</span>
+            <span class="metric-text">International students, new arrivals, and residents with limited disposable income</span>
+          </li>
+          <li>
+            <span class="metric-title">Service concept</span>
+            <span class="metric-text">A mobile-first directory and planning tool for food banks, community kitchens, campus support, and low-cost groceries</span>
+          </li>
+          <li>
+            <span class="metric-title">Core design question</span>
+            <span class="metric-text">How might we reduce friction and stigma when people need immediate, practical food support?</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="context" class="section reveal">
+      <div class="section-heading">
+        <p class="kicker">1. Context and problem space</p>
+        <h2>Why this matters</h2>
+      </div>
+
+      <div class="two-column">
+        <div class="card">
+          <h3>Observed challenge</h3>
+          <p>
+            Support options are fragmented across campus pages, charities, local councils, social media posts, and word of mouth.
+            People in urgent need must compare opening hours, eligibility rules, travel distance, and required documents while under stress.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Design opportunity</h3>
+          <p>
+            A service can reduce that burden by translating scattered information into plain-language guidance, accessible journey planning,
+            and trust-building explanations that respect cultural difference and personal dignity.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span>Context</span>
+          <h3>Cost pressure changes behaviour</h3>
+          <p>People delay seeking help, ration meals, or rely on inconsistent advice from peers before approaching formal services.</p>
+        </article>
+        <article class="timeline-item">
+          <span>Barrier</span>
+          <h3>Information is difficult to interpret</h3>
+          <p>Eligibility terms, map distance, transport complexity, and availability windows are often unclear or outdated.</p>
+        </article>
+        <article class="timeline-item">
+          <span>Impact</span>
+          <h3>Stress compounds exclusion</h3>
+          <p>Users with low digital confidence, limited English, disability, or stigma concerns are most likely to drop off.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="section reveal">
+      <div class="section-heading">
+        <p class="kicker">2. Research synthesis</p>
+        <h2>What the investigation suggests</h2>
+      </div>
+
+      <div class="grid research-grid">
+        <article class="card research-card">
+          <p class="card-label">Method 01</p>
+          <h3>Secondary research scan</h3>
+          <p>Reviewed recurring themes from public discussions around food insecurity, student hardship, service access, and digital exclusion.</p>
+          <p class="small-note">Used here to identify patterns, not to claim completed fieldwork.</p>
+        </article>
+
+        <article class="card research-card">
+          <p class="card-label">Method 02</p>
+          <h3>Service precedent review</h3>
+          <p>Compared charity directories, university support pages, transport-enabled maps, and crisis-support interfaces for clarity and trust signals.</p>
+        </article>
+
+        <article class="card research-card">
+          <p class="card-label">Method 03</p>
+          <h3>Journey and edge-case analysis</h3>
+          <p>Mapped the steps from “I need help today” to “I arrive at a service prepared,” including uncertainty, shame, and access constraints.</p>
+        </article>
+      </div>
+
+      <div class="insight-layout">
+        <div class="card">
+          <h3>Key insight themes</h3>
+          <ol class="number-list">
+            <li>Urgent users need “what can I do today?” answers before they want background information.</li>
+            <li>Trust grows when services explain practical details such as cost, ID requirements, transport, and cultural food suitability.</li>
+            <li>People value discretion; language that sounds charitable or corrective can discourage engagement.</li>
+            <li>Accessibility is not a separate layer because low bandwidth, translation needs, and cognitive load affect core usability.</li>
+          </ol>
+        </div>
+
+        <div class="card">
+          <h3>Design implications</h3>
+          <ul class="check-list">
+            <li>Prioritise immediate action paths over deep menu structures.</li>
+            <li>Use filters based on user tasks rather than organisational categories.</li>
+            <li>Explain support in neutral, respectful language.</li>
+            <li>Show “what to expect” before asking users to travel.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-heading">
+        <p class="kicker">3. Users and needs</p>
+        <h2>Who we are designing for</h2>
+      </div>
+
+      <div class="persona-grid">
+        <article class="persona card">
+          <h3>Mina, 22</h3>
+          <p class="persona-role">International student living off casual shifts</p>
+          <p>Mina needs affordable food this week, but she is unsure which services welcome students and whether she will be judged for asking.</p>
+          <p class="persona-need"><strong>Need:</strong> Fast reassurance, clear eligibility, and transport-aware options near campus.</p>
+        </article>
+
+        <article class="persona card">
+          <h3>David, 48</h3>
+          <p class="persona-role">Resident with chronic pain and limited mobility</p>
+          <p>David can access support only if locations are physically reachable and the page clearly states accessibility, queue expectations, and seating.</p>
+          <p class="persona-need"><strong>Need:</strong> Reliable access information and fewer cognitive steps.</p>
+        </article>
+
+        <article class="persona card">
+          <h3>Asha, 31</h3>
+          <p class="persona-role">New parent navigating a new suburb</p>
+          <p>Asha wants options that match childcare timing, dietary preferences, and family quantity without reading long blocks of institutional text.</p>
+          <p class="persona-need"><strong>Need:</strong> Plain-language summaries, family suitability, and culturally sensitive food indicators.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-heading">
+        <p class="kicker">4. Precedents and constraints</p>
+        <h2>What existing services taught the project</h2>
+      </div>
+
+      <div class="three-up">
+        <article class="card precedent">
+          <h3>Directories</h3>
+          <p class="precedent-score">Strength: breadth</p>
+          <p>They list many services, but often depend on dense text and unclear update cycles.</p>
+          <p class="precedent-takeaway">Takeaway: breadth must be paired with confidence signals and recency.</p>
+        </article>
+
+        <article class="card precedent">
+          <h3>Institutional support pages</h3>
+          <p class="precedent-score">Strength: authority</p>
+          <p>They are trusted, but usually organised by provider structure rather than user urgency.</p>
+          <p class="precedent-takeaway">Takeaway: authority should be combined with task-first navigation.</p>
+        </article>
+
+        <article class="card precedent">
+          <h3>Maps and delivery apps</h3>
+          <p class="precedent-score">Strength: practicality</p>
+          <p>They make distance and route friction visible, which is essential for time-sensitive decisions.</p>
+          <p class="precedent-takeaway">Takeaway: practical logistics are part of the service, not a secondary feature.</p>
+        </article>
+      </div>
+
+      <div class="constraint-band">
+        <div>
+          <p class="card-label">Constraint</p>
+          <h3>Low trust in outdated information</h3>
+        </div>
+        <div>
+          <p class="card-label">Constraint</p>
+          <h3>Mixed digital literacy</h3>
+        </div>
+        <div>
+          <p class="card-label">Constraint</p>
+          <h3>Sensitive personal context</h3>
+        </div>
+        <div>
+          <p class="card-label">Constraint</p>
+          <h3>Different language and dietary needs</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="principles" class="section reveal accent-section">
+      <div class="section-heading">
+        <p class="kicker">5. Design principles</p>
+        <h2>The logic connecting insight to action</h2>
+      </div>
+
+      <div class="principle-stack">
+        <article class="principle">
+          <h3>Immediate clarity</h3>
+          <p>Because users may arrive stressed or hungry, the interface should surface urgent next steps within the first screen.</p>
+        </article>
+        <article class="principle">
+          <h3>Dignified language</h3>
+          <p>Because stigma can deter use, microcopy should avoid moralising, charity-first framing, and unnecessary personal disclosure.</p>
+        </article>
+        <article class="principle">
+          <h3>Practical accessibility</h3>
+          <p>Because usability depends on context, accessibility must include screen-reader support, contrast, translation readiness, and low-bandwidth resilience.</p>
+        </article>
+        <article class="principle">
+          <h3>Cultural awareness</h3>
+          <p>Because food has cultural, religious, and family significance, the system should show suitability cues instead of assuming one universal standard.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="direction" class="section reveal">
+      <div class="section-heading">
+        <p class="kicker">6. Proposed design direction</p>
+        <h2>What the A3 implementation should become</h2>
+      </div>
+
+      <div class="direction-layout">
+        <div class="card direction-card">
+          <h3>Core experience</h3>
+          <p>
+            A mobile-first platform that asks a few respectful, task-based questions such as “Need food today?”, “Can you travel?”, and
+            “Do you need halal, vegetarian, or family-sized options?” It then recommends suitable services with plain-language preparation steps.
+          </p>
+        </div>
+
+        <div class="card direction-card">
+          <h3>Information architecture</h3>
+          <ul class="check-list">
+            <li>Today / This week / Ongoing support pathways</li>
+            <li>Map and list views with transport time</li>
+            <li>Service detail cards with eligibility, cost, food type, and accessibility notes</li>
+            <li>Preparation checklist for what to bring and what to expect</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="wireframe-strip" aria-label="Concept wireframe summaries">
+        <article class="wireframe-card">
+          <span class="wireframe-step">01</span>
+          <h3>Entry</h3>
+          <p>Calm landing screen with urgency-based choices, no forced sign-up, and language selection visible immediately.</p>
+        </article>
+        <article class="wireframe-card">
+          <span class="wireframe-step">02</span>
+          <h3>Match</h3>
+          <p>Filter results by location, transport, dietary preferences, cost, and accessibility support.</p>
+        </article>
+        <article class="wireframe-card">
+          <span class="wireframe-step">03</span>
+          <h3>Prepare</h3>
+          <p>Each result explains wait times, arrival instructions, accepted referrals, and quieter alternatives.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="commitments" class="section reveal">
+      <div class="section-heading">
+        <p class="kicker">7. Accessibility, ethics, and culture</p>
+        <h2>Non-negotiable commitments</h2>
+      </div>
+
+      <div class="commitment-grid">
+        <article class="card commitment">
+          <h3>Accessibility</h3>
+          <ul class="check-list">
+            <li>WCAG-aligned contrast, semantic HTML, visible focus, and keyboard navigation</li>
+            <li>Short paragraphs, clear headings, and reduced cognitive load</li>
+            <li>Responsive layout that remains usable on older phones and limited data</li>
+          </ul>
+        </article>
+
+        <article class="card commitment">
+          <h3>Ethics</h3>
+          <ul class="check-list">
+            <li>Collect the minimum data needed and avoid profiling people based on hardship</li>
+            <li>Make uncertainty visible when service details cannot be confirmed</li>
+            <li>Design for dignity by treating support access as normal and practical</li>
+          </ul>
+        </article>
+
+        <article class="card commitment">
+          <h3>Cultural considerations</h3>
+          <ul class="check-list">
+            <li>Use inclusive imagery and translation-ready content structure</li>
+            <li>Signal dietary and faith-related suitability where possible</li>
+            <li>Recognise that family, community, and privacy expectations differ across users</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal final-section">
+      <div class="section-heading">
+        <p class="kicker">8. Outcome</p>
+        <h2>Summary of the proposal</h2>
+      </div>
+      <div class="summary-card">
+        <p>
+          This website demonstrates a clear line from research to design action: fragmented support systems create avoidable stress,
+          so the proposed interface responds with urgency-based navigation, respectful language, practical logistics, and culturally aware access cues.
+        </p>
+        <p>
+          The project is not only about finding food services more efficiently. It is about designing a system that reduces uncertainty,
+          protects dignity, and acknowledges accessibility and ethics as central design requirements from the start.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Prepared as an integrated research and design proposal for Assessment 2.</p>
+    <button class="top-link" type="button" id="backToTop">Back to top</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
